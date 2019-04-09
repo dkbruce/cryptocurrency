@@ -5,7 +5,7 @@
 
 
 ## Purpose: 
-	The purpose of this project is to display the values per day for the past six year of four popular cryptocurrencies: Bitcoin, Ethereum, Neo, and Iota.
+###### The purpose of this project is to display the values per day for the past six year of four popular cryptocurrencies: Bitcoin, Ethereum, Neo, and Iota.
 
 ## Extract:
 	We extracted four separate CSV files from Kaggle.com. 
