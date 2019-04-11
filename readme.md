@@ -30,8 +30,5 @@
 
 
 ### Data Sources: 
-###### Bitcoin: https://www.kaggle.com/sudalairajkumar/cryptocurrencypricehistory#bitcoin_price.csv
-###### Ethereum: https://www.kaggle.com/sudalairajkumar/cryptocurrencypricehistory#ethereum_price.csv
-###### Neo: https://www.kaggle.com/sudalairajkumar/cryptocurrencypricehistory#neo_price.csv
-###### Iota: https://www.kaggle.com/sudalairajkumar/cryptocurrencypricehistory#iota_price.csv
+###### Bitcoin historical data: https://www.kaggle.com/sudalairajkumar/cryptocurrencypricehistory
 ###### S&P 500 historical data: https://finance.yahoo.com/quote/%5EGSPC/history?p=%5EGSPC 
