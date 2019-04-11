@@ -5,10 +5,10 @@
 
 
 ### Purpose: 
-###### The purpose of this project is to display the values per day for the past six year of four popular cryptocurrencies: Bitcoin, Ethereum, Neo, and Iota. This information is presented alongside the same historical data for the S&P 500 stock for comparison of the behavior of cryptocurrencies versus traditional stocks. 
+###### The purpose of this project is to display the values per day for the past six year of some popular cryptocurrencies, This information is presented alongside the same historical data for the S&P 500 stock for comparison of the behavior of cryptocurrencies versus traditional stocks. 
 
 ### Extract:
-###### We extracted four separate CSV files from Kaggle.com for the cryptocurrency data, and one CSV file from Yahoo Finance for the stock market data. 
+###### We extracted CSV files from Kaggle.com for the cryptocurrency data, and one CSV file from Yahoo Finance for the stock market data. 
 
 ### Transform: 
 ###### 	We converted the CSV files of the cryptocurrencies into Pandas dataframes, deciding to use all the existing columns, as the information is relevant to analyzing value fluctuations over time.
@@ -25,7 +25,7 @@
 
 
 ### Final Tables/Collections: 
-###### Five tables were created, one for each cryptocurrency and one for the S&P 500. 
+###### Several tables were created, one for each cryptocurrency and one for the S&P 500. 
 ###### The primary key in all tables is the date. 
 ###### We then did an inner join on all the tables, using the date as the joining point.
 
