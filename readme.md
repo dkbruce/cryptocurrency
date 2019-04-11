@@ -15,8 +15,7 @@
 ###### When creating table columns in SQL, some column names had to be used as strings, as their names were also existing data types (such as “date”).
 ###### The date columns in the cryptocurrency dataframes had to be converted to the SQL format of YYYY-MM-DD. To do this, we used datetime, strftime and strptime to convert from Mon DD, YYY to YYYY-MM-DD. This function was looped over the “date” column in all dataframes. 
 ###### The null values in the Volume column in the original data were specified by a dash (“-”); we had to replace that with a blank character in order to import to SQL as an integer. 
-###### The data for the S&P 500 has a column called “Adj Close” which we removed when cleaning the data, as it reflected the same values from the “Close” column.
-###### The tables were all inner joined on the date. 
+###### The data for the S&P 500 has a column called “Adj Close” which we removed when cleaning the data, as it reflected the same values from the “Close” column. 
 
 
 ### Load:
@@ -27,7 +26,6 @@
 ### Final Tables/Collections: 
 ###### Several tables were created, one for each cryptocurrency and one for the S&P 500. 
 ###### The primary key in all tables is the date. 
-###### We then did an inner join on all the tables, using the date as the joining point.
 
 
 
